@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>changing colors</title>
+  </head>
+
+  <body>
+    <row>
+      <div class="banner">
+        <h4>Enter a Color from List</h4>
+      </div>
+    </row>
+    <row>
+      <div id="container-3">
+        <p>
+          Type in a color from the list below to see the color appear in the
+          box. If you choose a color that is not on the list, the color of box
+          will default to White.
+        </p>
+        <row id="row-box">
+          <div id="square"></div>
+        </row>
+        <input type="text" id="Inp1" />
+        <button onclick="Pressed()">Click</button>
+        <h4 id="list">Red~Blue~Green~Yellow~Purple~Orange</h4>
+      </div>
+    </row>
+    <script src="script.js"></script>
+  </body>
+</html>
